@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:Cupcakes.Data"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    
     d:DataContext="{Binding Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
     mc:Ignorable="d">
 
