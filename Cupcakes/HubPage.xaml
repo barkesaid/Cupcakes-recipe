@@ -11,6 +11,9 @@
     d:DataContext="{Binding Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
     mc:Ignorable="d">
 
+    
+    
+    
     <Page.Resources>
         <DataTemplate x:Key="HubSectionHeaderTemplate">
             <TextBlock Margin="0,0,0,-9.5" Text="{Binding}"/>
